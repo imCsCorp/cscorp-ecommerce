@@ -5,6 +5,10 @@ import { HelmetProvider } from "react-helmet-async";
 import NotFoundPage from "../../src/pages/NotFoundPage";
 
 describe("<NotFoundPage />", () => {
+  // beforeEach(() => {
+  //   console.log(" hola mun ");
+  // });
+
   test("should be mounted", () => {
     const { getByTestId } = render(
       <HelmetProvider>
